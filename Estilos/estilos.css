@@ -1,0 +1,38 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+    background-color:black;     
+    text-align:center;
+    height: 125px;
+    
+}
+
+#pablo {
+    height:400px;
+    color:rgba(red, green, blue,5%);    
+}
+
+#barraHome {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+} 
+  
+#barraHome a {
+    display: block;
+    background-color: #000000;
+    color: aliceblue;    
+}
+
+li {
+    width: 80px;
+    height: 30px;
+    opacity: 1;
+    background: rgb(0, 0, 0);
+    transition: width 500ms, opacity 1s;
+}
+li:hover {
+    width: 160px;    
+    opacity: 0.3;
+}
