@@ -1,38 +1,43 @@
-h1 {
+h1#nombre {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: aqua;
-    background-color:black;     
-    text-align:center;
-    height: 125px;
-    
+    color: white;
+    background-color:rgb(0, 0, 0);     
+    text-align:center;    
+    padding: 10px;
+    margin: 0%;
 }
 
-#pablo {
+#imgPablo {
     height:400px;
     color:rgba(red, green, blue,5%);    
 }
 
-#barraHome {
+/*Barra de navegación*/
+#barraNav li {
+    float: right;
+}
+ul#barraNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right;
+    overflow: hidden;
+    background-color: rgb(3, 80, 63);
 } 
-  
-#barraHome a {
-    display: block;
-    background-color: #000000;
-    color: aliceblue;    
-}
-
-li {
-    width: 80px;
+#barraNav li a {
+    display:block;
+    color: rgb(53, 206, 122);
+    text-align: left;
+    text-indent: 5%;
+    padding-top: 15px;
+    border-left: 1px solid rgb(11, 131, 101);
+    width: 100px;
     height: 30px;
-    opacity: 1;
-    background: rgb(0, 0, 0);
-    transition: width 500ms, opacity 1s;
+    text-decoration: none;
+
+    transition: width 500ms, color 700ms;
 }
-li:hover {
-    width: 160px;    
-    opacity: 0.3;
+#barraNav li a:hover {
+    width: 130px;    
+    background-color: rgb(7, 160, 122);
+    color:rgb(2, 44, 28);   
 }
