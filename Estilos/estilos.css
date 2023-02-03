@@ -1,43 +1,85 @@
-h1#nombre {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    background-color:rgb(0, 0, 0);     
-    text-align:center;    
-    padding: 10px;
-    margin: 0%;
+* {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#imgPablo {
-    height:400px;
-    color:rgba(red, green, blue,5%);    
+div.cTitulo {
+    display:flex;
+}
+h1#nombre {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align:center;    
+    font-size: 130px;
+    margin-top: 15px;
+    
+    width: 100%;
+    top:50%;
+}
+#imgPablo {    
+    position: absolute;                    
+    top: 0%;
+    left:30%;        
+    height: 100%;
+    width: auto;    
+    opacity:0.2;    
+
+    transition: opacity 900ms;    
+}
+#imgPablo:hover {
+    opacity:0.7;
+}
+div#cTitulo {
+    border: 2px solid white;
 }
 
 /*Barra de navegación*/
-#barraNav li {
+.barraNav li {
     float: right;
 }
-ul#barraNav {
+ul.barraNav {    
     list-style-type: none;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(3, 80, 63);
+    background-color: rgb(131, 134, 134);
 } 
-#barraNav li a {
+.barraNav li a {
     display:block;
-    color: rgb(53, 206, 122);
+    color: rgb(0, 0, 0);
     text-align: left;
     text-indent: 5%;
     padding-top: 15px;
-    border-left: 1px solid rgb(11, 131, 101);
-    width: 100px;
+    border-left: 1px solid rgb(0, 0, 0);
+    width: 120px;
     height: 30px;
     text-decoration: none;
 
+    background-color: rgb(83, 83, 83);
     transition: width 500ms, color 700ms;
 }
-#barraNav li a:hover {
-    width: 130px;    
-    background-color: rgb(7, 160, 122);
-    color:rgb(2, 44, 28);   
+.barraNav li a:hover {
+    width: 190px;    
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);   
+}
+
+div.Pie {          
+    margin-top: 245px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(131, 134, 134,0.2);
+    height: 50px;
+}
+
+div.testAside {    
+    float: right;
+    position: relative;
+    text-align: right;
+    top: 5px;
+    right:15px;
+    color:rebeccapurple;
 }
