@@ -3,31 +3,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-div.cTitulo {    
-    display:flex;
-    border: 1px solid white;    
-    height: 1000px;        
-}
-h1#nombre {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(255, 255, 255);
-    position: absolute;
-    text-align:center;    
-    font-size: 130px;
-    top: 30%;
-    left: 60px;
-}
-#imgPablo {            
-    left:110px;            
-    opacity:0.2;    
-    height: 90%;
-    transition: opacity 900ms;    
-}
-#imgPablo:hover {
-    opacity:0.7;
-}
-
-/*Barra de navegación*/
+/*Barra de navegación TODOS*/
 .barraNav li {
     float: right;
 }
@@ -36,9 +12,13 @@ ul.barraNav {
     font-weight: bold;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden;    
     background-color: rgb(131, 134, 134);
 } 
+.barraNav li a.elegido {
+    background-color: rgb(54, 44, 44);
+    color: rgb(199, 40, 40);
+}
 .barraNav li a {
     display:block;
     color: rgb(0, 0, 0);
@@ -51,27 +31,10 @@ ul.barraNav {
     text-decoration: none;
 
     background-color: rgb(83, 83, 83);
-    transition: width 500ms, color 700ms;
+    transition: width 500ms, color 900ms;
 }
 .barraNav li a:hover {
     width: 190px;    
     background-color: rgb(0, 0, 0);
     color:rgb(255, 255, 255);   
-}
-
-div.Pie {              
-    font-size: 25px;
-    text-align: center;
-    padding-top: 15px;
-    color:rgb(255, 255, 255);
-    background-color: rgba(131, 134, 134,0.2);
-    height: 50px;
-}
-
-div.testAside {    
-    margin-top: 50%;
-    padding-right: 20%;
-    text-align: right;    
-    right:15px;
-    color:rebeccapurple;
 }
