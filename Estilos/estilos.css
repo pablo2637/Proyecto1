@@ -3,34 +3,28 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-div.cTitulo {
+div.cTitulo {    
     display:flex;
+    border: 1px solid white;    
+    height: 1000px;        
 }
 h1#nombre {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(255, 255, 255);
+    position: absolute;
     text-align:center;    
     font-size: 130px;
-    margin-top: 15px;
-    
-    width: 100%;
-    top:50%;
+    top: 30%;
+    left: 60px;
 }
-#imgPablo {    
-    position: absolute;                    
-    top: 0%;
-    left:30%;        
-    height: 100%;
-    width: auto;    
+#imgPablo {            
+    left:110px;            
     opacity:0.2;    
-
+    height: 90%;
     transition: opacity 900ms;    
 }
 #imgPablo:hover {
     opacity:0.7;
-}
-div#cTitulo {
-    border: 2px solid white;
 }
 
 /*Barra de navegación*/
@@ -65,21 +59,19 @@ ul.barraNav {
     color:rgb(255, 255, 255);   
 }
 
-div.Pie {          
-    margin-top: 245px;
+div.Pie {              
     font-size: 25px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 15px;
     color:rgb(255, 255, 255);
     background-color: rgba(131, 134, 134,0.2);
     height: 50px;
 }
 
 div.testAside {    
-    float: right;
-    position: relative;
-    text-align: right;
-    top: 5px;
+    margin-top: 50%;
+    padding-right: 20%;
+    text-align: right;    
     right:15px;
     color:rebeccapurple;
 }
