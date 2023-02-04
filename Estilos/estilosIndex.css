@@ -37,7 +37,7 @@ div.testAside .pp, p:last-child {
 }
 
 /*Footer*/
-div.pie {              
+footer div {              
     font-size: 20px;
     text-align: center;
     padding-top: 20px;
@@ -45,7 +45,7 @@ div.pie {
     background-color: rgba(131, 134, 134,0.1);
     height: 40px;
 }
-div.pie a, .telefono, .pabloP {
+footer a, .telefono, .pabloP {
     text-decoration: none;    
     color:rgb(151, 149, 149);
     background-color: transparent;
