@@ -1,4 +1,30 @@
 img.pp {
     position: absolute;
-    right: 15px;
+    right: 15px;    
+    border: 1px solid black;
+}
+
+img.flecha {    
+    position: absolute;
+    right: 10px;        
+    opacity: 0.4;
+    transition: opacity 200ms;
+}
+img.flecha:hover {
+    opacity: 0.9;
+}
+
+/*Footer*/
+footer div {              
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color:rgb(109, 108, 108);
+    background-color: rgba(131, 134, 134,0.1);
+    height: 40px;
+}
+footer a, .telefono, .pabloP {
+    text-decoration: none;    
+    color:rgb(151, 149, 149);
+    background-color: transparent;
 }
