@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(248, 248, 228, 0.712);
+    background-color: rgba(230, 206, 206, 0.712);
 }
 
 img.pp {
@@ -57,31 +57,4 @@ li .nombreEmpresa {
 
 dt {    
     font-weight: bold;
-}
-
-/*Flecha para volver al top*/
-img.flecha {    
-    position: fixed;
-    bottom: 7px;
-    right: 10px;        
-    opacity: 0.3;
-    transition: opacity 200ms;
-}
-img.flecha:hover {
-    opacity: 0.9;
-}
-
-/*Footer*/
-footer div {              
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px;
-    color:rgb(109, 108, 108);
-    background-color: rgba(131, 134, 134,0.1);
-    height: 40px;
-}
-footer a, .telefono, .pabloP {
-    text-decoration: none;    
-    color:rgb(151, 149, 149);
-    background-color: transparent;
 }

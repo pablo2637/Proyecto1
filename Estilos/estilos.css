@@ -52,3 +52,15 @@ footer a, .telefono, .pabloP {
     color:rgb(151, 149, 149);
     background-color: transparent;
 }
+
+/*Flecha para volver al top*/
+img.flecha {    
+    position: fixed;
+    bottom: 7px;
+    right: 10px;        
+    opacity: 0.3;
+    transition: opacity 200ms;
+}
+img.flecha:hover {
+    opacity: 0.9;
+}

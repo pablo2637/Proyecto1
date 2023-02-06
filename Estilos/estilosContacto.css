@@ -1,5 +1,6 @@
 img.clint {    
-    border-radius: 50px;
+    border-radius: 50px;    
+    right: 5%;
 }
 
 .contactForm {
@@ -8,7 +9,7 @@ img.clint {
     justify-content: center;
     flex-wrap: wrap;
     border: 2px solid;
-    background-color: rgb(38, 59, 43);
+    background-color: rgb(189, 187, 187);
     border-radius: 20px;
     column-gap: 15px;
     margin: 5%;
@@ -16,17 +17,8 @@ img.clint {
     max-width: 1000px;    
 }
 
-input[type="submit"] {
-    color:rgb(255, 255, 255);
-    background-color: rgb(165, 21, 21);
-    border-radius: 5px;
-    border-style: none;
-    width: 250px;    
-    font-size: 2em;
-    height: 40px;    
-}
 label {
-    color:white;
+    color:rgb(255, 42, 42);
 }
 
 .contactForm > div {
@@ -49,9 +41,25 @@ label {
 }
 
 .contenedorTexto {
-    height: 100px;
+    box-sizing: content-box;
 }
 
-div.contactForm > div {        
-    /*border: 1px dotted rgb(0, 0, 0);        */
+#texto {
+    height: 20px;
+}
+
+input[type="submit"] {
+    color:rgb(255, 255, 255);
+    background-color: rgb(71, 68, 68);    
+    border-radius: 5px;
+    border-style: none;
+    
+    width: 250px;       
+    font-size: 2em;
+    height: 70px;    
+}
+
+div.boton {    
+    width: 20%;
+    background-color: transparent;    
 }
