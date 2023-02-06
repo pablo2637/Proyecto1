@@ -29,11 +29,26 @@ ul.barraNav {
     height: 30px;
     text-decoration: none;
     background-color: rgb(83, 83, 83);
-    
+
     transition: width 500ms, color 900ms;
 }
 .barraNav li a:hover {
     width: 190px;    
     background-color: rgb(0, 0, 0);
     color:rgb(255, 255, 255);   
+}
+
+/*Footer*/
+footer div {              
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color:rgb(109, 108, 108);
+    background-color: rgba(131, 134, 134,0.1);
+    height: 40px;
+}
+footer a, .telefono, .pabloP {
+    text-decoration: none;    
+    color:rgb(151, 149, 149);
+    background-color: transparent;
 }

@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./Estilos/estilos.css">
+    <link rel="stylesheet" type="text/css" href="./Estilos/estilosContacto.css">
     <title>Pablo Pace: Contacto</title>    
 </head>
 <body>    
     <div id="Encabezado">        
         <nav>
             <ul class="barraNav">
-                <li><a href="./contacto.html" target="_self">Contacto</a></li>
+                <li><a class="elegido" href="./contacto.html" target="_self">Contacto</a></li>
                     <li><a href="./cv.html" target="_self">Curriculum</a></li>
                     <li><a href="./hobbys.html" target="_self">Hobbys</a></li>
                     <li><a href="./bio.html" target="_self">Biografía</a></li>
@@ -19,7 +20,45 @@
             </ul>
         </nav>
         <h1>Contacto</h1>
+        <img class="clint" src="./Imagenes/clint.jpg" alt="Clint Eastwood" height="500px">
+        <p>tienes algo que decir?</p>
+        <form id="formulario" action="" target="_blank">                    
+            <div class="contactForm">                
+                <div>          
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Como te llamas?">                    
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <br>
+                    <input class="inputs" type="text" name="apellido" id="apellido" placeholder="Escribe aquí tus apellidos...">
+                </div>            
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <br>
+                    <input class="inputs" type="text" name="telefono" id="telefono" placeholder="Aquí va tu móvil...">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input class="inputs" type="text" name="email" id="email" placeholder="Pon tu correo electrónico...">
+                </div>
+                <div class="contenedorTexto">
+                    <label for="texto">Comentario:</label>
+                    <br>
+                    <textarea class="inputs" name="texto" id="texto"  placeholder="Dime algo..."></textarea>
+                </div>                                                  
+                <input type="submit" value="Enviar">
+            </div>            
+                  
+        </form>
+        
     </div>  
     
 </body>
+<footer>    
+    <div><span class="pabloP">Pablo Pace</span> - Teléfono: <span class="telefono">677 76 63 62</span> - Email: 
+        <a href="mailto:pablo.pace@hotmail.com">pablo.pace@hotmail.com</a></div>
+</footer>
 </html>
