@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./Estilos/estilos.css">
     <link rel="stylesheet" type="text/css" href="./Estilos/estilosContacto.css">
+    <link rel="icon" type="image/x-icon" href="./Imagenes/favicon.ico"> 
     <title>Pablo Pace: Contacto</title>    
 </head>
 <body>    
@@ -21,33 +22,34 @@
         </nav>
         <h1>Contacto</h1>
         <img class="clint" src="./Imagenes/clint.jpg" alt="Clint Eastwood" height="500px">
-        <p>tienes algo que decir?</p>
+        <a href="#nombre" class="question"><p>Algo que decirme?</p></a>
+        
         <form id="formulario" action="" target="_blank">                    
             <div class="contactForm">                
                 <div>          
                     <label for="nombre">Nombre:</label>
                     <br>
-                    <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Como te llamas?">                    
+                    <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Como te llamas?" required>                    
                 </div>
                 <div>
                     <label for="apellido">Apellidos:</label>
                     <br>
-                    <input class="inputs" type="text" name="apellido" id="apellido" placeholder="Escribe aquí tus apellidos...">
+                    <input class="inputs" type="text" name="apellido" id="apellido" placeholder="Escribe aquí tus apellidos..." required>
                 </div>            
                 <div>
                     <label for="telefono">Teléfono:</label>
                     <br>
-                    <input class="inputs" type="text" name="telefono" id="telefono" placeholder="Aquí va tu móvil...">
+                    <input class="inputs" type="tel" name="telefono" id="telefono" placeholder="Aquí va tu móvil..." required>
                 </div>
                 <div>
                     <label for="email">Email:</label>
                     <br>
-                    <input class="inputs" type="email" name="email" id="email" placeholder="Pon tu correo electrónico...">
+                    <input class="inputs" type="email" name="email" id="email" placeholder="Pon tu correo electrónico..." required>
                 </div>
                 <div class="contenedorTexto">
                     <label for="texto">Comentario:</label>
                     <br>
-                    <textarea class="inputs" name="texto" id="texto"  placeholder="Dime algo..."></textarea>
+                    <textarea class="inputs" name="texto" id="texto"  placeholder="Dime algo..." required></textarea>
                 </div>     
                 <div class="boton">
                     <input type="submit" value="Enviar">
