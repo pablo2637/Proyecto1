@@ -2,32 +2,61 @@ body {
     background-color: rgba(231, 231, 231, 0.342);
 }
 
-img {    
+img.angelito, img.adolecente, img.pabloGuitar, img.peque, .pabloAdulto {    
     opacity: 0.7;
     border-radius: 15px;    
     border: 1px solid rgb(0, 0, 0);
-    margin: 5px;
+    background-color:black ;
+    margin: 10px 10px;
     padding: 5px;
     float: left;    
 }
 
-.hermanos {
-    color:red;
-    background-color: black;
+img.pabloAdulto {
+    margin-left: 20px;
+    float: right;
 }
 
-h2 {
-    margin-top: 50px;
-    font-size: 2.0em;
+.c64, .sentido, .cambio, .edad43, .apasiona {
+    color: rgb(201, 0, 201);    
+    font-weight: bolder;
 }
 
-img.angelito {
+.hermanos, em {
+    color:rgb(184, 40, 40);
+    font-weight: bold;
+}
+
+.todosLosDias {
+    font-style: oblique;
+    text-decoration:underline;    
+}
+
+h2 {      
+    font-size: 2.5em;        
+    background: linear-gradient(180grad, black,rgb(228, 228, 228));
+    border-radius: 15px;
+    padding: 10px 15px;
+    color:  rgb(255, 255, 255);         
+}
+h2[text="Juventud"] {
+    text-align: right;
+}
+
+img.angelito, img.pabloGuitar {
     float: right;
 }
 
 p.infancia, p.adultez, p.juventud {
-    text-align: justify;
-    line-height: 26x;    
+    text-align: justify;    
+}
+
+p.adultez {
+    background-color: rgba(254, 255, 194, 0.185);
+}
+
+.tesoro, .paisVasco, .bridge {
+    background-color: rgb(248, 248, 52);
 }
 
 p::first-letter {
@@ -35,3 +64,23 @@ p::first-letter {
     font-weight: bold;
 }
 
+.rebelde, .pais, .crecer, .excelencia, .ganas {
+    background-color: black;
+    color:white;
+}
+
+p {
+    line-height: 27px;
+    background-color: rgba(254, 255, 194, 0.185);
+}
+
+img.pabloCollage {
+    margin-left: 20px;
+    opacity: 0.9;
+    border-radius: 15px;
+    border: 2px solid rgb(172, 0, 0);    
+}
+
+.apm {
+    font-weight: bold;
+}
