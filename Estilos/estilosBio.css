@@ -2,7 +2,7 @@ body {
     background-color: rgba(231, 231, 231, 0.342);
 }
 
-img.angelito, img.adolecente, img.pabloGuitar, img.peque, .pabloAdulto {    
+img.angelito, img.adolescente, img.pabloGuitar, img.peque, .pabloAdulto {    
     opacity: 0.7;
     border-radius: 15px;    
     border: 1px solid rgb(0, 0, 0);
@@ -34,10 +34,11 @@ img.pabloAdulto {
 
 h2 {      
     font-size: 2.5em;        
-    background: linear-gradient(180grad, black,rgb(228, 228, 228));
+    background: linear-gradient(180grad, rgba(231, 231, 231, 0.575),rgba(254, 255, 194, 0.185));
     border-radius: 15px;
     padding: 10px 15px;
-    color:  rgb(255, 255, 255);         
+    margin: 25px;
+    color:  rgb(0, 0, 0);         
 }
 h2[text="Juventud"] {
     text-align: right;
@@ -49,10 +50,6 @@ img.angelito, img.pabloGuitar {
 
 p.infancia, p.adultez, p.juventud {
     text-align: justify;    
-}
-
-p.adultez {
-    background-color: rgba(254, 255, 194, 0.185);
 }
 
 .tesoro, .paisVasco, .bridge {
@@ -71,14 +68,14 @@ p::first-letter {
 
 p {
     line-height: 27px;
-    background-color: rgba(254, 255, 194, 0.185);
+    /* background-color: rgba(254, 255, 194, 0.185); */
 }
 
 img.pabloCollage {
     margin-left: 20px;
     opacity: 0.9;
     border-radius: 15px;
-    border: 2px solid rgb(172, 0, 0);    
+    border: 5px solid rgb(0, 0, 0);    
 }
 
 .apm {
