@@ -22,6 +22,10 @@ img.pabloAdulto {
     font-weight: bolder;
 }
 
+a.bridge {
+    text-decoration: none;
+}
+
 .hermanos, em {
     color:rgb(184, 40, 40);
     font-weight: bold;
