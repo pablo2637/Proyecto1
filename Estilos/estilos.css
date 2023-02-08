@@ -1,5 +1,5 @@
 * {    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
 
 /*Barra de navegación TODOS*/
@@ -79,4 +79,15 @@ img.flecha {
 }
 img.flecha:hover {
     opacity: 0.9;
+}
+
+div.centrarWeb {            
+    display: flex;
+    flex-flow: column;        
+    width: 1265px;    
+}
+
+div.master {
+    display: flex;
+    justify-content: center;
 }

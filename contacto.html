@@ -1,69 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./Estilos/estilos.css">
     <link rel="stylesheet" type="text/css" href="./Estilos/estilosContacto.css">
-    <link rel="icon" type="image/x-icon" href="./Imagenes/favicon.ico"> 
-    <title>Pablo Pace: Contacto</title>    
+    <link rel="icon" type="image/x-icon" href="./Imagenes/favicon.ico">
+    <title>Pablo Pace: Contacto</title>
 </head>
-<body>    
-    <div id="Encabezado">        
-        <nav>
-            <ul class="barraNav">
-                <li><a class="elegido" href="./contacto.html" target="_self">Contacto</a></li>
+
+<body>
+    <header>
+        <div id="Encabezado">
+            <nav>
+                <ul class="barraNav">
+                    <li><a class="elegido" href="./contacto.html" target="_self">Contacto</a></li>
                     <li><a href="./cv.html" target="_self">Curriculum</a></li>
                     <li><a href="./hobbys.html" target="_self">Hobbys</a></li>
                     <li><a href="./bio.html" target="_self">Biografía</a></li>
                     <li><a href="./index.html" target="_self">Home</a></li>
-            </ul>
-        </nav>
-        <h1>Contacto</h1>
-        <img class="clint" src="./Imagenes/clint.jpg" alt="Clint Eastwood" height="500px">
-        <a href="#nombre" class="question"><p>Algo que decirme?</p></a>
-        
-        <form id="formulario" action="" target="_blank">                    
-            <div class="contactForm">                
-                <div>          
-                    <label for="nombre">Nombre:</label>
-                    <br>
-                    <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Como te llamas?" required>                    
-                </div>
-                <div>
-                    <label for="apellido">Apellidos:</label>
-                    <br>
-                    <input class="inputs" type="text" name="apellido" id="apellido" placeholder="Escribe aquí tus apellidos..." required>
-                </div>            
-                <div>
-                    <label for="telefono">Teléfono:</label>
-                    <br>
-                    <input class="inputs" type="tel" name="telefono" id="telefono" placeholder="Aquí va tu móvil..." required>
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <br>
-                    <input class="inputs" type="email" name="email" id="email" placeholder="Pon tu correo electrónico..." required>
-                </div>                
-                <div class="contenedorTexto">                    
-                    <label for="texto">Comentario:</label>
-                    <br>
-                    <textarea class="inputs" name="texto" id="texto"  placeholder="Dime algo..." required></textarea>
-                </div>     
-                                
-                <div class="boton">
-                    <input type="submit" value="Enviar">                    
-                    <input type="reset" value="Limpiar">    
-                </div>                          
-            </div>                              
-        </form>        
-    </div>  
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="master">
+        <div class="centrarWeb">
+            <h1>Contacto</h1>
+            <div>
+                <img class="clint" src="./Imagenes/clint.jpg" alt="Clint Eastwood" width="500">
+                <a href="#nombre" class="question">
+                    <p>Algo que decirme?</p>
+                </a>
+            </div>
+            <section>
+                <form id="formulario" action="" target="_blank">
+                    <div class="contactForm">
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <br>
+                            <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Como te llamas?"
+                                required>
+                        </div>
+                        <div>
+                            <label for="apellido">Apellidos:</label>
+                            <br>
+                            <input class="inputs" type="text" name="apellido" id="apellido"
+                                placeholder="Escribe aquí tus apellidos..." required>
+                        </div>
+                        <div>
+                            <label for="telefono">Teléfono:</label>
+                            <br>
+                            <input class="inputs" type="tel" name="telefono" id="telefono"
+                                placeholder="Aquí va tu móvil..." required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <br>
+                            <input class="inputs" type="email" name="email" id="email"
+                                placeholder="Pon tu correo electrónico..." required>
+                        </div>
+                        <div class="contenedorTexto">
+                            <label for="texto">Comentario:</label>
+                            <br>
+                            <textarea class="inputs" name="texto" id="texto" placeholder="Dime algo..."
+                                required></textarea>
+                        </div>
+
+                        <div class="boton">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpiar">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
     <br><br><br>
 </body>
-<footer>    
-    <img class="iconoPablo" src="./Imagenes/favicon.ico" alt="Pablo icono" >
-    <div><span class="pabloP">Pablo Pace</span> - Teléfono: <span class="telefono">677 76 63 62</span> - Email: 
-        <a href="mailto:pablo.pace@hotmail.com">pablo.pace@hotmail.com</a></div>
+<footer>
+    <img class="iconoPablo" src="./Imagenes/favicon.ico" alt="Pablo icono">
+    <div><span class="pabloP">Pablo Pace</span> - Teléfono: <span class="telefono">677 76 63 62</span> - Email:
+        <a href="mailto:pablo.pace@hotmail.com">pablo.pace@hotmail.com</a>
+    </div>
 </footer>
+
 </html>
