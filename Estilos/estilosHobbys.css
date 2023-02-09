@@ -2,6 +2,7 @@ body {
     background-color: rgba(231, 231, 231, 0.342);
 }
 
+/*Formato de textos*/
 p.introMusica, p.introDeporte, p.introProgramacion, li, .introViajar, .mmOtros {
     text-align: justify;
     line-height: 25px;
@@ -12,12 +13,22 @@ section {
     margin-right: 25px;    
 }
 
+h3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+.advertencia {
+    color:red;
+}
+
+/*Formatos de los contenedores multimedia*/
 .mmMusica {
     display:flex;        
     flex-flow: row;
     column-gap: 5%;    
     justify-content: center;
-    /* background-color: red;  */
 }
 
 .mmGuitarra, .mmPiano, .mmDeporte, .mmViajar, .mmGames {
@@ -40,6 +51,7 @@ section {
     justify-content: center;    
 }
 
+/*Formato de los videos*/
 video {
     width: 400px;    
     height: 250px;
@@ -47,6 +59,7 @@ video {
     color: white;
 }
 
+/*Imagenes sueltas*/
 img.c64 {
     margin-top: 30px;
     margin-left: 5px;

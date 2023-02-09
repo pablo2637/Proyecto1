@@ -2,6 +2,7 @@ body {
     background-color: rgba(231, 231, 231, 0.342);
 }
 
+/*Foto CV*/
 img.pp {    
     float: right;
     right: 15px;        
@@ -9,6 +10,13 @@ img.pp {
     border-radius: 15px;
 }
 
+/*enlaces*/
+li a {
+    text-decoration: none;
+    color:rgb(35, 90, 136);
+}
+
+/*Resto de encabezados y listas*/
 h2 {
     text-indent: 10px;
     padding-top: 8px;    
@@ -16,23 +24,29 @@ h2 {
     background-color: black;
     height: 35px;
 }
+
 ul.datosPersonales {
     font-size:larger;
 }
+
 h3, dl {
     text-indent: 20px;
 }
+
 li > ul {
     text-align: justify;
     color:rgb(3, 3, 80);    
 }
+
 dd, li {
     line-height: 25px;
 }
+
 dl .titulo {
     font-weight: bold;
     color: rgb(82, 25, 25);
 }
+
 dl .tituloCV {
     font-style: italic;
 }
@@ -40,10 +54,12 @@ dl .tituloCV {
 li.puestoCV {
     font-style: italic;
 }
+
 li.subtituloCV::first-line {
     text-decoration: underline;
     color:rgb(2, 2, 180);
 }
+
 li .nombreEmpresa {
     font-weight: bold;
 }

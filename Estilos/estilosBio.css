@@ -2,6 +2,7 @@ body {
     background-color: rgba(231, 231, 231, 0.342);
 }
 
+/*Imagenes en texto*/
 img.angelito, img.adolescente, img.pabloGuitar, img.peque, .pabloAdulto {    
     opacity: 0.7;
     border-radius: 15px;    
@@ -17,13 +18,10 @@ img.pabloAdulto {
     float: right;
 }
 
+/*Texto destacado*/
 .c64, .sentido, .cambio, .edad43, .apasiona {
     color: rgb(201, 0, 201);    
     font-weight: bolder;
-}
-
-a.bridge {
-    text-decoration: none;
 }
 
 .hermanos, em {
@@ -36,6 +34,10 @@ a.bridge {
     text-decoration:underline;    
 }
 
+a.bridge {
+    text-decoration: none;
+}
+
 h2 {      
     font-size: 2.5em;        
     background: linear-gradient(180grad, rgba(231, 231, 231, 0.575),rgba(254, 255, 194, 0.185));
@@ -44,6 +46,7 @@ h2 {
     margin: 25px;
     color:  rgb(0, 0, 0);         
 }
+
 h2[text="Juventud"] {
     text-align: right;
 }
@@ -72,16 +75,16 @@ p::first-letter {
 
 p {
     line-height: 27px;
-    /* background-color: rgba(254, 255, 194, 0.185); */
 }
 
+.apm {
+    font-weight: bold;
+}
+
+/*Imagen final*/
 img.pabloCollage {
     margin-left: 20px;
     opacity: 0.9;
     border-radius: 15px;
     border: 5px solid rgb(0, 0, 0);    
-}
-
-.apm {
-    font-weight: bold;
 }
